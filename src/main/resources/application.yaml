@@ -1,0 +1,15 @@
+server:
+  port: 9991
+
+
+spring:
+  application:
+    name: "luyanbo-opensergo"
+
+management:
+  endpoint:
+    info:
+      enabled: true
+    web:
+      exposure:
+        include: "*"
