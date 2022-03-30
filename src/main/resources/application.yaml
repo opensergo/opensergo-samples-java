@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: "luyanbo-opensergo"
+    name: "example-spring-cloud"
 
 management:
   endpoint:

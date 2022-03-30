@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-boot-complete</artifactId>
+	<artifactId>opensergo-sc-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-complete</name>
-	<description>Demo project for Spring Boot</description>
+	<name>opensergo-sc-demo</name>
+	<description>Demo project for OpenSergo with Spring Cloud</description>
 
 	<properties>
 		<java.version>1.8</java.version>
