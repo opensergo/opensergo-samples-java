@@ -7,7 +7,7 @@ RUN apk add curl vim iproute2 tcpdump
 COPY --from=hengyunabc/arthas:latest /opt/arthas /opt/arthas
 
 WORKDIR /app
-COPY /target/spring-boot-complete-0.0.1-SNAPSHOT.jar /app/opensergo-sca.jar
+COPY /target/opensergo-sc-demo-0.0.1-SNAPSHOT.jar /app/opensergo-sca.jar
 COPY /start.sh /app
 
 EXPOSE 20002
