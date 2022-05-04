@@ -9,6 +9,7 @@ spring:
     nacos:
       discovery:
         server-addr: mse-xxxxx-p.nacos-ans.mse.aliyuncs.com:8848
+        enable: false
   endpoint:
     info:
       enabled: true
