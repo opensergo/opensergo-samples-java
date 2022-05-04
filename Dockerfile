@@ -1,5 +1,8 @@
 FROM eclipse-temurin:11-jdk-alpine
 
+LABEL org.opencontainers.image.source https://github.com/opensergo/example-opensergo-sca
+
+
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
 RUN apk add curl vim iproute2 tcpdump
 

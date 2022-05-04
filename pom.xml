@@ -25,9 +25,15 @@
             <version>1.44.1</version>
         </dependency>
 
-        <dependency>
+		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-opensergo</artifactId>
+			<version>2021.0.1.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
 			<version>2021.0.1.1-SNAPSHOT</version>
 		</dependency>
 

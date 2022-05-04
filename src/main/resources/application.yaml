@@ -5,8 +5,10 @@ server:
 spring:
   application:
     name: "example-spring-cloud"
-
-management:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: mse-xxxxx-p.nacos-ans.mse.aliyuncs.com:8848
   endpoint:
     info:
       enabled: true
